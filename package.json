@@ -2,6 +2,7 @@
   "name": "app-vue3-vite",
   "private": true,
   "version": "0.1.0",
+  "description": "app vue3 start",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
