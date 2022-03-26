@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   env: {
+    'vue/setup-compiler-macros': true,
     browser: true,
     es2021: true,
     node: true,
@@ -17,5 +18,30 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
-  rules: {},
+  rules: {
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: true,
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        ts: 'never',
+        js: 'never',
+      },
+    ],
+  },
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+        extensions: ['.ts', '.js', '.jsx', '.json'],
+      },
+    },
+  },
 }

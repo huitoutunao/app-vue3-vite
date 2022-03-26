@@ -28,5 +28,7 @@ export default defineConfig({
 ### Eslint
 
 ```sh
-$ yarn add -D eslint eslint-plugin-vue vue-eslint-parser @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb-base eslint-plugin-import
+$ yarn add -D eslint eslint-plugin-vue vue-eslint-parser @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb-base eslint-plugin-import eslint-import-resolver-alias
 ```
+
+[Does not work well with \<script setup\>](https://eslint.vuejs.org/user-guide/#does-not-work-well-with-script-setup)
