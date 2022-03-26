@@ -25,8 +25,8 @@ export default defineConfig({
 
 ## 代码规范
 
-### 配置 eslint
+### Eslint
 
 ```sh
-$ yarn add -D eslint eslint-plugin-vue vue-eslint-parser @typescript-eslint/parser @typescript-eslint/eslint-plugin
+$ yarn add -D eslint eslint-plugin-vue vue-eslint-parser @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb-base eslint-plugin-import
 ```

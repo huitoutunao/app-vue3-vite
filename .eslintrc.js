@@ -11,6 +11,11 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  extends: ['plugin:vue/vue3-recommended', 'plugin:@typescript-eslint/recommended'],
+  extends: [
+    'plugin:vue/vue3-recommended',
+    'airbnb-base',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+  ],
   rules: {},
 }
