@@ -28,5 +28,5 @@ export default defineConfig({
 ### 配置 eslint
 
 ```sh
-$ yarn add -D eslint eslint-plugin-vue
+$ yarn add -D eslint eslint-plugin-vue vue-eslint-parser @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```

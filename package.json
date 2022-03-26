@@ -7,7 +7,7 @@
     "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint:js": "eslint --fix . --ext .vue,.js,.ts",
+    "lint:js": "eslint --fix --ext .vue,.js,.ts",
     "format": "prettier --write ."
   },
   "dependencies": {
@@ -17,12 +17,15 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
     "@vitejs/plugin-vue": "^2.2.0",
     "eslint": "^8.12.0",
     "eslint-plugin-vue": "^8.5.0",
     "sass": "^1.49.9",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
+    "vue-eslint-parser": "^8.3.0",
     "vue-tsc": "^0.29.8"
   }
 }
