@@ -2,7 +2,7 @@
 
 vite 搭建 vue3 + ts 初始化模板。
 
-## 流程
+## 配置 `vite.config.ts`
 
 当配置 `vite.config.ts` 时，因为找不到 `path` 模块，所以安装了依赖 `yarn add -D @types/node`。
 
@@ -21,4 +21,12 @@ export default defineConfig({
   },
   base: './', // 设置打包路径
 })
+```
+
+## 代码规范
+
+### 配置 eslint
+
+```sh
+$ yarn add -D eslint eslint-plugin-vue
 ```
