@@ -32,3 +32,9 @@ $ yarn add -D eslint eslint-plugin-vue vue-eslint-parser @typescript-eslint/pars
 ```
 
 [Does not work well with \<script setup\>](https://eslint.vuejs.org/user-guide/#does-not-work-well-with-script-setup)
+
+## 单元测试
+
+```sh
+$ yarn add -D jest @vue/test-utils@next @vue/vue3-jest ts-jest @types/jest
+```
