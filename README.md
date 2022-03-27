@@ -36,5 +36,7 @@ $ yarn add -D eslint eslint-plugin-vue vue-eslint-parser @typescript-eslint/pars
 ## 单元测试
 
 ```sh
-$ yarn add -D jest @vue/test-utils@next @vue/vue3-jest ts-jest @types/jest
+$ yarn add -D jest @vue/test-utils@next @vue/vue3-jest ts-jest @types/jest eslint-plugin-jest
 ```
+
+详情请看 `tsconfig.json` 和 `jest.config.js` 配置文件。

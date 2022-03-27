@@ -17,6 +17,7 @@ module.exports = {
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
   ],
   rules: {
     'import/no-extraneous-dependencies': [
