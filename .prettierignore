@@ -1,6 +1,4 @@
-# Ignore artifacts:
-.idea
-.vscode
-node_modules
-dist
+# Ignore artifacts
+/node_modules
+/dist
 
