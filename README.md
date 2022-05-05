@@ -40,3 +40,7 @@ $ yarn add -D jest @vue/test-utils@next @vue/vue3-jest ts-jest @types/jest eslin
 ```
 
 详情请看 `tsconfig.json` 和 `jest.config.js` 配置文件。
+
+## 打包出现问题
+
+1. 可能是 `vue-tsc` 版本和当前 `vscode` 编辑器安装的 `volar` 插件版本不一致。更新 `yarn add -D vue-tsc` 即可。
