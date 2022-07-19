@@ -1,6 +1,6 @@
 # app-vue3-vite
 
-vite 搭建 vue3 + ts 初始化模板。
+vite2 搭建 vue3 + ts 初始化模板。
 
 ## 配置 `vite.config.ts`
 
